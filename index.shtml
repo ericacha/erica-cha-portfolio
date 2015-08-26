@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Erica Cha's Portfolio </title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <!-- Logo -->
+                    <a href=" " class="navbar-brand"> Erica Cha Portfolio </a>
+                </div>
+                <!-- Navbar Header  -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="#about">About Me</a> </li>
+                        <li> <a href="#portfolio">Portfolio</a>
+                        <li> <a href="#contact">Contact Me</a>
+                    </ul>
+                </div>
+            </div>
+            <!-- End-container  -->
+        </nav>
+        <!-- End navbar -->
+        <!-- jumbotron -->
+        <div class="jumbotron">
+            <div class="container text-center">
+                <br> <br>
+                <h2>Erica Cha's Portfolio</h2>
+                ** page includes Bootstrap, jQuery, CSS, HTML, Responsive  **
+                <br><br>
+                <img src="img/erica.jpg" alt="Erica Portfolio Image">
+                <br> <br>
+                <div class="btn-group">
+                    <a href="#contact" class="btn btn-lg btn-info">Contact </a>
+                </div>
+            </div>
+            <!-- End containter -->
+        </div>
+        <!-- End jumbotron -->
+        <!-- about me  -->
+        <div class="container">
+            <section>
+                <div class="page-header" id="about">
+                    <h2> About Me. <small>"If it doesn't challenge you, it won't change you."</small> </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>Welcome </h3>
+                        <blockquote>
+                            <p>Hi! My name is Erica Cha. This is where you will find my latest work and on-going projects. I have been enjoying my time building websites. <span class="show-more">Read More</span><span class="about-me">Whether it's for non-profit, small businesses, etc…the vision of what you are looking is exciting work for me. My reward is seeing our ideas come together and bringing them to life.
+                                If you feel that my skills and experience will be a great help to you, please contact me and would love to talk over coffee.Cheers! </span>
+                            </p>
+                            <footer>Erica Cha </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Resume </h3>
+                        <blockquote>
+                            <div class="resume"><a href="img/EricaChaResume.pdf" target="_blank">Learn more about my skills and experience</a></div>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3> Technologies</h3>
+                        <blockquote>
+                            <p> JavaScript •
+                                jQuery •
+                                mySQL •
+                                PHP •
+                                Drupal •
+                                AJAX •
+                                Git •
+                                CSS •
+                                HTML •
+                                Business Catalyst •
+                                Odoo •
+                                Bootstrap
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+                <!-- End row -->
+            </section>
+        </div>
+        <!-- End container  -->
+        <!-- Portfolio -->
+        <div class="container">
+            <section>
+                <div class="page-header" id="portfolio">
+                    <h2>Portfolio. <small> Check out my work, more coming soon. </small> </h2>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="http://www.erica-cha.com/address_book/address-book.html" target="_blank">
+                                <figure>
+                                    <img src="img/address.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>This is an address book, it allows the user to add an entry and click on the name to display the address they inputed. Includes JavaScript,
+                                            jQuery, Bootstrap, Respsonsive
+                                            CSS,HTML.
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="http://www.atmmachinesupplier.dreamhosters.com" target="_blank">
+                                <figure>
+                                    <img src="img/atm.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>An on-going live project I'm currently working on. For clients interested in purchasing ATM Machines and how it can help their businesses. Includes parallax, SSI, Responsive, Media Query, Carousel, Boostrap, jQuery,CSS,HTML.</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="http://pawderosa-sandbox.flowerpotsocialmedia.net/petloss" target="_blank">
+                                <figure>
+                                    <img src="img/pawderosa.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>On-going internship project I worked on using Business Catalyst. I worked on the Petloss and Contact page, goal is to make it respsonsive using Foundation and supported modules. Idea was to recreate a replica of the original website from Muse to BC for client.  </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="http://dev-portlandiashoes.pantheon.io" target="_blank">
+                                <figure>
+                                    <img src="img/portlandia.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>A group project using Drupal. Used commerse module to implement shoe store. Website includes a display of products by product type,a taxonomy-based menu to organize and display content. We created a sub theme of the Drupal Nexus theme. </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="https://epifoodus.herokuapp.com" target="_blank">
+                                <figure>
+                                    <img src="img/epifoodus.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>A group project app project called, Epifoodus. Idea was based off from what users would like to eat when they're hungry. Used PHP, Twig, Silex, mySQL, CSS, Boostrap. </p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 hide-work">
+                    <ul class="photo-grid">
+                        <li>
+                            <a href="http://www.thebestyardoregon.com" target="_blank">
+                                <figure>
+                                    <img src="img/best-yard.jpg" height="180" width="320">
+                                    <figcaption>
+                                        <p>Live site - a template I used and changed CSS/HTML to help redesign layout to promote client's growing business. Includes jQuery, SSI, Carousel, CSS, HTML Boostrap.</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- End container -->
+        <!-- contact me -->
+        <div class="container">
+            <section>
+                <div class="page-header" id="contact">
+                    <h2>Contact Me. <small> Would love to hear from you</small> </h2>
+                </div>
+                <!-- End Page Header -->
+                <div class="row">
+                    <div class="col-lg-4 contact-section">
+                        <a href="https://github.com/ericacha"><img src="img/git-icon.jpg" alt="Erica's Version Control" title="Erica's Github"> github.com/ericacha</a>
+                    </div>
+                    <div class="col-lg-4 contact-section">
+                        <a href="mailto:chae_osu@yahoo.com">
+                            <img class="mail-icon" src="img/mail-icon.jpg" alt="Erica Yahoo Email" title="Erica's Email"> Email: chae_osu@yahoo.com
+                    </div>
+                    <div class="col-lg-4 contact-section">
+                    <a href="https://www.linkedin.com/in/chaerica"><img src="img/linkedin-icon.jpg" alt="Erica LinkedIn Information" title="Erica's LinkedIn"> linkedin.com/in/chaerica</a>
+                    </div>
+                </div>
+                <!-- End row -->
+            </section>
+        </div>
+        <!-- End container -->
+        <br><br><br>
+        <footer>
+            Copyright 2015 | Erica Cha
+        </footer>
+    </body>
+</html>
