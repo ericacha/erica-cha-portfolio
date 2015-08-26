@@ -4,6 +4,7 @@
 
 ###Description
 This is a portfolio site of my web development work
+www.erica-cha.com
 
 
 ###Copyright (c) 2015 Erica Cha
